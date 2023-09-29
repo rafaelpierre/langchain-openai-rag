@@ -1,0 +1,7 @@
+.venv
+.whl
+.egg
+__pycache__
+.DS_Store
+*.csv
+chroma_db
