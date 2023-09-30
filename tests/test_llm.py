@@ -1,4 +1,4 @@
-from embeddings import get_summaries
+from chai.embeddings import get_summaries
 from fixtures.reviews import full_text
 
 def test_summary():
@@ -10,6 +10,5 @@ def test_summary():
     for summary in summaries:
         print(summary["text"])
 
-    assert False
     assert summaries
     assert len(summaries) > 0
