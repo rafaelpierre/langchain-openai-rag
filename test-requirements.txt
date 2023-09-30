@@ -1,0 +1,9 @@
+langchain
+openai
+chromadb
+pandas
+tiktoken
+pytest
+black
+ruff
+pytest-cov

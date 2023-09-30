@@ -24,5 +24,6 @@ dynamic = ["version"]
 [project.optional-dependencies]
 openai = ["openai"]
 chroma = ["chroma-db"]
+embeddings = ["tiktoken"]
 
 [project.scripts]
